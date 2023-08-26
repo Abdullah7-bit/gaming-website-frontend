@@ -91,7 +91,7 @@ focusOnSelect | boolean | false | Enable focus on selected element (click)
 focusOnChange | boolean | false | Puts focus on slide after change
 infinite | boolean | true | Infinite looping
 initialSlide | integer | 0 | Slide to start on
-lazyLoad | string | 'ondemand' | Accepts 'ondemand' or 'progressive' for lazy load technique. 'ondemand' will load the image as soon as you slide to it, 'progressive' loads one image after the other when the page loads.
+lazyLoad | string | 'ondemand' | Accepts 'ondemand' or 'progressive' for lazy load technique. 'ondemand' will load the img as soon as you slide to it, 'progressive' loads one img after the other when the page loads.
 mobileFirst | boolean | false | Responsive settings use mobile first calculation
 nextArrow | string (html \| jQuery selector) \| object (DOM node \| jQuery object) | `<button type="button" class="slick-next">Next</button>` | Allows you to select a node or customize the HTML for the "Next" arrow.
 pauseOnDotsHover | boolean | false | Pauses autoplay when a dot is hovered
@@ -191,8 +191,8 @@ init | event, slick | When Slick initializes for the first time callback. Note t
 reInit | event, slick | Every time Slick (re-)initializes callback
 setPosition | event, slick | Every time Slick recalculates position
 swipe | event, slick, direction | Fires after swipe/drag
-lazyLoaded | event, slick, image, imageSource | Fires after image loads lazily
-lazyLoadError | event, slick, image, imageSource | Fires after image fails to load
+lazyLoaded | event, slick, img, imgSource | Fires after img loads lazily
+lazyLoadError | event, slick, img, imgSource | Fires after img fails to load
 
 
 #### Methods
@@ -266,7 +266,7 @@ Variable | Type | Default | Description
 ------ | ---- | ------- | -----------
 $slick-font-path | string | "./fonts/" | Directory path for the slick icon font
 $slick-font-family | string | "slick" | Font-family for slick icon font
-$slick-loader-path | string | "./" | Directory path for the loader image
+$slick-loader-path | string | "./" | Directory path for the loader img
 $slick-arrow-color | color | white | Color of the left/right arrow icons
 $slick-dot-color | color | black | Color of the navigation dots
 $slick-dot-color-active | color | $slick-dot-color | Color of the active navigation dot
