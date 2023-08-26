@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Epic-Games</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- BS 5 linking  -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img style="width: 22vh;" src="image/logo.ico" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mob-navbar"
+          aria-label="Toggle">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mob-navbar">
+          <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="about.html">About Us</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Products</a>
+              <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item text-light" href="elctronic-art.html">Electronic Arts</a>
+                </li>
+                <li><a class="dropdown-item text-light" href="epicgames.html">Epic Games</a></li>
+                <li><a class="dropdown-item text-light" href="ubisof.html">Ubisoft</a></li>
+                <li><a class="dropdown-item text-light" href="nintendo.html">Nintendo Games &raquo;</a>
+                  <ul class="dropdown-menu dropdown-submenu bg-dark">
+                    <li>
+                      <a class="dropdown-item text-white" href="S_console.html">Console</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-white" href="S_game.html">Games</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Other Brands</a>
+              <ul class="dropdown-menu bg-dark">
+                <li>
+                <li>
+                  <a class="dropdown-item text-light" href="sony.html">Sony &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+                    &raquo; </a>
+                  <ul class="dropdown-menu dropdown-submenu bg-dark">
+                    <li>
+                      <a class="dropdown-item text-white" href="S_console.html">Console</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-white" href="S_game.html">Games</a>
+                    </li>
+                  </ul>
+                </li>
+
+            </li>
+            <li>
+            <li>
+              <a class="dropdown-item text-light" href="mircrosoft.html">Microsoft &nbsp; &nbsp; &raquo; </a>
+              <ul class="dropdown-menu dropdown-submenu bg-dark">
+                <li>
+                  <a class="dropdown-item text-white" href="M_console.html">Console</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white" href="M_game.html">Games</a>
+                </li>
+              </ul>
+            </li>
+            </li>
+          </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="compare.html">Compare</a>
+          </li>
+          </ul>
+          <form class="d-flex">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal"
+              data-bs-target="#exampleModal_login">
+              Login
+            </button>
+
+          </form>
+          <!-- Login Form -->
+          <div class="modal fade" id="exampleModal_login" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content bg-dark text-white">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"><img class="w-50 h-25" src="image/logo-2.png" alt="">
+                  </h5>
+                  <button type="button" class="btn-close btn-outline-warning" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="modal-body p-5 pt-0">
+                    <form class="">
+                      <div class="form-floating mb-3">
+                        <input type="email" class="form-control bg-transparent text-white rounded-4" id="floatingInput"
+                          placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="password" class="form-control bg-transparent text-white rounded-4"
+                          id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                      </div>
+                      <button class="w-100 mb-2 btn btn-outline-warning rounded-4" type="submit">Sign up</button>
+                      <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                      <hr class="my-4">
+                      <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                      <button class="w-100 py-2 mb-2 btn btn-outline-danger text-white rounded-4" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-instagram" viewBox="0 0 16 16">
+                          <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                        </svg>
+                        Sign up with Instagram
+                      </button>
+                      <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-4" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-facebook" viewBox="0 0 16 16">
+                          <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg>
+                        Sign up with Facebook
+                      </button>
+                      <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-4" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-github" viewBox="0 0 16 16">
+                          <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg>
+                        Sign up with GitHub
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-warning justify-content-center"
+                    data-bs-dismiss="modal">Close</button>
+                  <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End Header Section -->
+
+  <!-- Horizontal Section -->
+  <article class="postcard dark yellow">
+    <a class="postcard__img_link" href="#">
+      <img class="postcard__img" src="image/fall_guys-epc.jpg" alt="Image Title" />
+    </a>
+    <div class="postcard__text">
+      <h1 class="postcard__title yellow"><a href="#">Fall Guys:</a></h1>
+      <div class="postcard__subtitle small">
+        <time datetime="2020-05-25 12:00:00">
+          <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+        </time>
+      </div>
+      <div class="postcard__bar"></div>
+      <div class="postcard__preview-txt">Fall Guys: Ultimate Knockout flings hordes of contestants together online in a
+        wild dash through round after round of escalating chaos until one victor remains. Battle bizarre obstacles,
+        shove through unruly competitors, and overcome the unbending laws of physics as you stumble towards greatness.
+      </div>
+      <ul class="postcard__tagbox">
+        <li class="tag__item"><i class="bi bi-star p-2 "></i>Like</li>
+        <li class="tag__item"><i class="bi bi-chat p-2"></i>Comment</li>
+        <li class="tag__item play red">
+          <a href="#"><i class="bi bi-play mr-2"></i>Play Now</a>
+        </li>
+      </ul>
+    </div>
+  </article>
+  <!-- End Horizontal Section -->
+
+
+  <!-- card -->
+  <section class="pt-5 pb-5">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12">
+          <div class="row">
+
+            <div class="col-md-4 mb-3">
+              <div class="card-dark text-white">
+                <img class="img-fluid" alt="100%x280" src="image/BattleField_1_main.jpg">
+                <div class="card-body">
+                  <h4 class="card-title">BattleField 1</h4>
+                  <p class="card-text">Battlefield 1 is a first-person shooter game that emphasizes teamwork. It is set
+                    in the period of World War I, and is inspired by historical events. ... Melee combat was reworked,
+                    with DICE introducing new melee weapons such as sabres, trench clubs, and shovels into the game.</p>
+                  <button class="btn btn-outline-warning">
+                    More
+                  </button>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card-dark text-white">
+                <img class="img-fluid" alt="100%x280" src="image/BattleField 1943_main.jpg">
+                <div class="card-body">
+                  <h4 class="card-title">BattleField 1943</h4>
+                  <p class="card-text">Battlefield 1943 is a multiplayer-only game that lets you enjoy the thrills of
+                    Pacific WW2 battles! Pick your path - be it as a rifleman, a steel fisted tank commander, or ace
+                    fighter pilot.Battlefield 1943 is an online multiplayer World War II first-person shooter video game
+                    developed by DICE and published by Epic Games for Xbox 360 and All Playstation.</p>
+                  <button class="btn btn-outline-warning">
+                    More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card-dark text-white">
+                <img class="img-fluid" alt="100%x280" src="image/Battlefield_V_main.jpg">
+                <div class="card-body">
+                  <h4 class="card-title">Battlefield V</h4>
+                  <p class="card-text">Battlefield V is a first-person shooter video game developed by DICE and
+                    published by Electronic Arts. ... The game is based on World War II and is a thematic continuation
+                    of its World War I based precursor Battlefield 1.shooter video game developed by DICE and published
+                    by Epic Games for Xbox 360 and All Playstation.</p>
+                  <button class="btn btn-outline-warning">
+                    More
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Card -->
+
+
+  <!-- Horizontal Section -->
+  <article class="postcard dark yellow">
+    <a class="postcard__img_link" href="#">
+      <img class="postcard__img" src="image/game6.jpg" alt="Image Title" />
+    </a>
+    <div class="postcard__text">
+      <h1 class="postcard__title yellow"><a href="#">Podcast Title</a></h1>
+      <div class="postcard__subtitle small">
+        <time datetime="2020-05-25 12:00:00">
+          <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+        </time>
+      </div>
+      <div class="postcard__bar"></div>
+      <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus
+        eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat
+        vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis
+        enim quidem excepturi, illum quos!</div>
+      <ul class="postcard__tagbox">
+        <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+        <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+
+        <li class="tag__item play yellow">
+          <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+        </li>
+      </ul>
+    </div>
+  </article>
+  <!-- End Horizontal Section -->
+
+  <!-- Footer -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="footer-cta pt-3 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-md-4 mb-30">
+            <div class="single-cta">
+              <i class="bi bi-geo-alt-fill"></i>
+              <div class="cta-text">
+                <h4>Find us</h4>
+                <span>1010 Avenue, sw 54321, chandigarh</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 mb-30">
+            <div class="single-cta">
+              <i class="bi bi-telephone"></i>
+              <div class="cta-text">
+                <h4>Call us</h4>
+                <span>9876543210 0</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 mb-30">
+            <div class="single-cta">
+              <i class="bi bi-envelope"></i>
+              <div class="cta-text">
+                <h4>Mail us</h4>
+                <span>mail@info.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-content pt-5 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 mb-50">
+            <div class="footer-widget">
+              <div class="footer-logo">
+                <a href="index.html"><img src="image/logo-2.png" class="img-fluid" alt="logo"></a>
+              </div>
+              <div class="footer-text">
+                <p class="text-break">Tangoline Inc. is selling Video Games, Game Consoles etc. Company is into selling
+                  these products
+                  for last 10 years. They have a wide range of games. The company advertises by distributing the
+                  pamphlets, advertising on television and so on. Due to rapid development in internet field.</p>
+              </div>
+              <div class="footer-social-icon">
+                <span>Follow us</span>
+                <a href="#"><i style="color: #3b5998;" class="bi bi-facebook"></i></a>
+                <a href="#"><i style="color: #00acee;" class="bi bi-twitter"></i></a>
+                <a href="#"><i style="color: #db3236;" class="bi bi-google"></i></a>
+                <a href="#"><i style="color: #f16063;" class="bi bi-instagram"></i></a>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Useful Links</h3>
+              </div>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="sony.html">Sony</a></li>
+                <li><a href="mircrosoft.html">Microsoft</a></li>
+                <!-- <li><a href="#">Our Services</a></li>
+                <li><a href="#">Expert Team</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Latest News</a></li>
+              </ul> -->
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Subscribe</h3>
+              </div>
+              <div class="footer-text mb-25">
+                <p>Dont miss to subscribe to our new feeds, kindly fill the form below.</p>
+              </div>
+              <div class="subscribe-form">
+                <form action="#">
+                  <input type="text" placeholder="Email Address">
+                  <button><i class="bi bi-telegram"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+            <div class="copyright-text">
+              <p>Copyright &copy; 2022, All Right Reserved</p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+            <div class="footer-menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Policy</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="Bs-icons/bootstrap-icons.json"></script>
+  <!-- End Footer -->
+</body>
+
+</html>
